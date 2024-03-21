@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="div"></div>
+    <div id="div2"></div>
+    <header>
+        <h1>Trabalho aula 3</h1> 
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#formularioGet">Formulário GET</a></li>
+            <li><a href="#formularioPost">Formulário POST</a></li>
+            <li><a href="https://www.example.com" target="_blank">Site Externo</a></li>
+        </ul>
+    </nav>
+    
+    <h6 title="Este é um sub-título">teste</h6> 
+    <section>
+        <p id="introducao">Esse site irá conter uma lista da tabela do top 4 do <strong>brasileirão</strong> do ano passado.</p> 
+            <p><span class="destaque">Destaque<span> 
+                <em>teste</em> 
+                <del>teste</del> 
+            </p>
+            <dl>
+                <dt>Palmeiras</dt>
+                <dd>70</dd>
+                <dt>Gremio</dt>
+                <dd>68</dd>
+                <dt>Atletico MG</dt>
+                <dd>66</dd>
+                <dt>Flamengo</dt>
+                <dd>66</dd>
+            </dl>
+    </section>
+
+    
+    <section>
+        <h2>Áudio Exemplo</h2>
+        <audio controls>
+            <source src="Gabriel_Sica/aaaa/door.mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+
+    
+    <section>
+        <h2>Imagem Exemplo</h2>
+        <img src="porta.png" alt="Imagem de exemplo">
+    </section>
+
+    
+    <section>
+        <h2>Vídeo Exemplo</h2>
+        <video controls width="250">
+            <source src="Prog/dooor.mp3" type="video.mp3">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </section>
+
+    <section id="formularioGet">
+        <h2>Formulário GET</h2>
+        <form action="/submit" method="GET">
+            <label for="searchGet">Pesquisa:</label>
+            <input type="text" id="searchGet" name="search">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="formularioPost">
+        <h2>Formulário POST</h2>
+        <form action="/submit" method="POST">
+            <label for="nomeTime">Nome do Time:</label>
+            <input type="text" id="nomeTime" name="nomeTime" title="Insira o nome do time">
+            <label for="posicaoTime">Posição:</label>
+            <select name="posicaoTime" id="posicaoTime">
+                <option value="1">1º Lugar</option>
+                <option value="2">2º Lugar</option>
+                <option value="3">3º Lugar</option>
+                <option value="4">4º Lugar</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p><a href="#introducao">Voltar ao topo</a></p>
+    </footer>
+</body>
+</html>
